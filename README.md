@@ -12,6 +12,7 @@ Esse projeto de clusterização de pontos de interesse tem três etapas:
 Para executar o projeto de clusterizar pontos de interesse e criar uma base de dados que possibilite criar uma camada de inteligência no software ArcGis para atender uma demanda 
 do setor que trabalho atualmente precisava construir uma base de dados. Coletei uma quantidade com um fonte interna, mas por não ser volumétricamente suficiente foi 
 necessário incrementar essa base com dados coletados do próprio google.
+
 ![dados](https://user-images.githubusercontent.com/79414503/187421878-fa0428b1-8338-4e63-b293-367b76c15934.JPG)
 
 Após coletar um número x de dados (estabelecimentos operacionais e seu hábito de consumo) os próximos passos foram descobrir o número ideal de clusters, o que é importante para 
@@ -23,8 +24,7 @@ Método de Elbow
 Como fica na prática a curva de dados que vainos apresentar o n° ideal de clusters
 ![elbow2](https://user-images.githubusercontent.com/79414503/187422726-50863c8b-e456-4570-b744-4d0104ae3cf2.JPG)
 
-Na sequência utilizei o Kmeans, que é uma ferramenta do Scikit Learn muito utilizada para clusterização para efetuar o clustering e após efetuar o clustering utilizei 
-o Matplotlib para tirar as médias de cada cluster e com isso gerar uma 4 curvas e plotar em um único gráfico. As curvas 
+Na sequência utilizei o Kmeans, que é uma ferramenta do Scikit Learn muito utilizada para clusterização para efetuar o clustering e após efetuar o clustering utilizei o Matplotlib para tirar as médias de cada cluster e com isso gerar uma 4 curvas e plotar em um único gráfico. As curvas 
 que precisava eram seg-sex, sab, dom e seg-dom.
 
 Curva gerada pelo Matplotlib com os dados dos clusters oriundos da clusterização do recorte do hábito de consumo de seg-sex
@@ -37,5 +37,6 @@ Mapa gerado utilizando a biblioteca Folium
 ![maoa-folium](https://user-images.githubusercontent.com/79414503/187423694-86d5a05c-857b-4481-8587-ac8abc2cb252.JPG)
 
 
-OBSERVAÇÃO
+OBSERVAÇÃO:
+
 Esses dados apresentados foram propositalmente descaracterizados para não conterem informações sensíveis e a explicação foi resumida para sintetizar o processo.
