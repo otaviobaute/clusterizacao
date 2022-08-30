@@ -1,7 +1,7 @@
 # clusterizacao
 Projeto de Clusterização de pontos de interesse
 
-Esse projeto de clusterização de pontos de interesse tem três etapas:
+Esse projeto de clusterização de pontos de interesse tem quatro etapas:
 
 1 - Tratar base de dados disponível;
 2 - Tiro as médias de alguns intervalos (seg-sex , sab , dom e seg-dom) e faço a clusterização utilizando o método de elbow e o scikit learn para clusterizar meus dados;
